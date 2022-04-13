@@ -22,3 +22,34 @@ for i in col_std:
  print(i,' ',col_std.count(i))
     
 # %%
+
+#go through each columns for their stats
+
+#step 1: create a dict
+#{} -> dict
+#[] -> list
+#()-> tuple
+
+result = {}
+
+print(df['feature1'].std())
+
+
+for col in df_data.columns:
+    std = df_data[col].std()
+    mean = df_data[col].mean()
+    list = []
+    list.append(std)
+    list.append(mean)
+    result[col] = list
+
+df_EDA = pd.DataFrame.from_dict(result,orient='index')
+
+df_EDA.columns = ['std','mean']
+
+print(df_EDA.head())
+
+
+
+
+# %%
