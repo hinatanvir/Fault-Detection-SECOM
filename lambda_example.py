@@ -1,10 +1,6 @@
 #lambda
 
 
-from regex import B
-from sympy import C
-
-
 def sum_we_define(a,b):
     c = a + b
     return c
