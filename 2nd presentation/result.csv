@@ -1,0 +1,27 @@
+,No.,combination,cols,cf_matrix,accuracy,f1,precision,recall,specificity,type_1_error_FP,type_2_error_FN,auc,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,specificity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
+0,0,3s&knn__distance&BoP&SMOTE,"Index(['feature_20', 'feature_22', 'feature_34', 'feature_60', 'feature_122',
+       'feature_130', 'feature_131', 'feature_206', 'feature_248',
+       'feature_342', 'feature_478', 'feature_520'],
+      dtype='object')","[[238  55]
+ [ 12   9]]",0.7866242038216561,0.2117647058823529,0.140625,0.42857142857142855,0.42857142857142855,55,12,0.6204290589956118,"[[ 953  217]
+ [  96 1074]]",0.8662393162393163,0.8728159284843559,0.8319132455460883,0.9179487179487179,0.9179487179487179,217,96,0.8662393162393162
+1,1,3s&knn__distance&BoS__shap&SMOTE,"Index(['feature_34', 'feature_60', 'feature_478', 'feature_342', 'feature_133',
+       'feature_65', 'feature_164', 'feature_435', 'feature_66', 'feature_206',
+       'feature_349', 'feature_299'],
+      dtype='object')","[[228  65]
+ [  6  15]]",0.7738853503184714,0.297029702970297,0.1875,0.7142857142857143,0.7142857142857143,65,6,0.7462213554363726,"[[921 249]
+ [185 985]]",0.8145299145299145,0.8194675540765393,0.7982171799027553,0.8418803418803419,0.8418803418803419,249,185,0.8145299145299146
+2,2,3s&knn__distance&RFE__RF&SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_103', 'feature_116', 'feature_122', 'feature_131',
+       'feature_206', 'feature_288', 'feature_320', 'feature_424',
+       'feature_478', 'feature_511'],
+      dtype='object')","[[248  45]
+ [ 13   8]]",0.8152866242038217,0.21621621621621623,0.1509433962264151,0.38095238095238093,0.38095238095238093,45,13,0.6136843816024703,"[[1022  148]
+ [  37 1133]]",0.9209401709401709,0.9245206038351692,0.8844652615144418,0.9683760683760684,0.9683760683760684,148,37,0.920940170940171
+3,3,3s&MICE&BoP&SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_122', 'feature_130', 'feature_131', 'feature_206',
+       'feature_248', 'feature_342', 'feature_349', 'feature_383',
+       'feature_478', 'feature_520'],
+      dtype='object')","[[233  60]
+ [  9  12]]",0.7802547770700637,0.25806451612903225,0.16666666666666666,0.5714285714285714,0.5714285714285714,60,9,0.6833252072159922,"[[ 958  212]
+ [  35 1135]]",0.8944444444444445,0.9018673023440604,0.8426132145508537,0.9700854700854701,0.9700854700854701,212,35,0.8944444444444445
