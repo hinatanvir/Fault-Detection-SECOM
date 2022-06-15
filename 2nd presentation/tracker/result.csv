@@ -1,0 +1,7 @@
+,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,balancing_sampling_technique,cols,cf_matrix,accuracy,f1,precision,recall,specificity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,specificity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
+0,0,3s & MICE & BoS__shap & SMOTE & NN,10,3s,MICE,BoS__shap,SMOTE,"Index(['feature_164', 'feature_383', 'feature_442', 'feature_65',
+       'feature_206', 'feature_124', 'feature_349', 'feature_60', 'feature_34',
+       'feature_133'],
+      dtype='object')","[[356  84]
+ [ 14  17]]",1.0,0.25757575757575757,0.16831683168316833,0.5483870967741935,0.5483870967741935,84,14,0.6787390029325513,7.186554677039031,0.17442318011089253,"[[872 151]
+ [185 838]]",1.0,0.8330019880715707,0.8473205257836198,0.8191593352883676,0.8191593352883676,151,185,0.8357771260997068
