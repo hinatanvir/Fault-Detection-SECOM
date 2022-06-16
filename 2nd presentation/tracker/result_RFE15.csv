@@ -1,0 +1,26 @@
+,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,balancing_sampling_technique,Model,cols,cf_matrix,accuracy,f1,precision,recall,sensitivity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,sensitivity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
+0,1,3s & knn__uniform & BoS__shap & ADASYN & RF,14,3s,knn__uniform,BoS__shap,ADASYN,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
+       'feature_435', 'feature_124', 'feature_461', 'feature_283',
+       'feature_442', 'feature_34', 'feature_332', 'feature_22',
+       'feature_185'],
+      dtype='object')","[[247  46]
+ [ 10  11]]",0.821656050955414,0.282051282051282,0.19298245614035087,0.5238095238095238,0.5238095238095238,46,10,0.6834064683894036,6.1598989159133355,0.20427187980812744,"[[ 964  206]
+ [ 112 1036]]",0.8628127696289906,0.8669456066945607,0.8341384863123994,0.9024390243902439,0.9024390243902439,206,112,0.8631853241609339
+1,2,3s & knn__uniform & BoS__shap & SMOTEENN & RF,10,3s,knn__uniform,BoS__shap,SMOTEENN,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
+       'feature_435', 'feature_34', 'feature_22', 'feature_442',
+       'feature_124'],
+      dtype='object')","[[233  60]
+ [  7  14]]",0.7866242038216561,0.2947368421052632,0.1891891891891892,0.6666666666666666,0.6666666666666666,60,7,0.7309442548350398,7.369891701607731,0.21270862959359316,"[[653  84]
+ [ 56 861]]",0.9153567110036276,0.924812030075188,0.9111111111111111,0.9389312977099237,0.9389312977099237,84,56,0.9124778605238898
+2,3,3s & MICE & BoS__shap & ADASYN & RF,15,3s,MICE,BoS__shap,ADASYN,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_148',
+       'feature_349', 'feature_65', 'feature_435', 'feature_124', 'feature_34',
+       'feature_22', 'feature_118', 'feature_442', 'feature_104', 'feature_3',
+       'feature_332'],
+      dtype='object')","[[251  42]
+ [  9  12]]",0.8375796178343949,0.32,0.2222222222222222,0.5714285714285714,0.5714285714285714,42,9,0.7140419307654802,5.609908214116285,0.24753312658584725,"[[ 998  172]
+ [ 145 1013]]",0.863831615120275,0.8647033717456253,0.8548523206751055,0.8747841105354058,0.8747841105354058,172,145,0.8638877817634293
+3,4,3s & MICE & BoS__shap & SMOTEENN & RF,7,3s,MICE,BoS__shap,SMOTEENN,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
+       'feature_435', 'feature_34'],
+      dtype='object')","[[200  93]
+ [  4  17]]",0.6910828025477707,0.2595419847328244,0.15454545454545454,0.8095238095238095,0.8095238095238095,93,4,0.7460588330895498,10.669858830787721,0.16585419291230752,"[[557 128]
+ [ 78 878]]",0.874466788543571,0.8950050968399592,0.8727634194831014,0.9184100418410042,0.9184100418410042,128,78,0.8657743639861954
