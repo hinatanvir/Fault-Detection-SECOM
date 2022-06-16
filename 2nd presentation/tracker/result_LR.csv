@@ -1,0 +1,61 @@
+,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,balancing_sampling_technique,Model,cols,cf_matrix,accuracy,f1,precision,recall,sensitivity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,sensitivity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
+0,1,3s & MICE & RFE__RF & ADASYN & LR,24,3s,MICE,RFE__RF,ADASYN,LR,"Index(['feature_1', 'feature_17', 'feature_20', 'feature_22', 'feature_34',
+       'feature_60', 'feature_65', 'feature_92', 'feature_103', 'feature_104',
+       'feature_112', 'feature_122', 'feature_130', 'feature_131',
+       'feature_153', 'feature_206', 'feature_246', 'feature_248',
+       'feature_300', 'feature_337', 'feature_349', 'feature_421',
+       'feature_489', 'feature_511'],
+      dtype='object')","[[237  56]
+ [  8  13]]",0.7961783439490446,0.2888888888888889,0.18840579710144928,0.6190476190476191,0.6190476190476191,8,56,0.7139606695920689,7.039893206147691,0.20763346739216149,"[[964 206]
+ [410 734]]",0.7337942955920485,0.7044145873320536,0.7808510638297872,0.6416083916083916,0.6416083916083916,410,206,0.7327700077700078
+1,2,3s & MICE & RFE__RF & SMOTE & LR,25,3s,MICE,RFE__RF,SMOTE,LR,"Index(['feature_1', 'feature_17', 'feature_20', 'feature_22', 'feature_34',
+       'feature_60', 'feature_65', 'feature_82', 'feature_92', 'feature_104',
+       'feature_112', 'feature_116', 'feature_122', 'feature_130',
+       'feature_131', 'feature_154', 'feature_206', 'feature_247',
+       'feature_248', 'feature_288', 'feature_300', 'feature_337',
+       'feature_349', 'feature_383', 'feature_461'],
+      dtype='object')","[[223  70]
+ [  9  12]]",0.7484076433121019,0.23300970873786406,0.14634146341463414,0.5714285714285714,0.5714285714285714,9,70,0.6662603607996099,8.689870404516109,0.14160149491314278,"[[914 256]
+ [396 774]]",0.7213675213675214,0.7036363636363636,0.7514563106796116,0.6615384615384615,0.6615384615384615,396,256,0.7213675213675212
+2,3,3s & MICE & RFE__RF & SMOTEENN & LR,25,3s,MICE,RFE__RF,SMOTEENN,LR,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_65', 'feature_91', 'feature_104', 'feature_112', 'feature_113',
+       'feature_118', 'feature_122', 'feature_130', 'feature_131',
+       'feature_153', 'feature_154', 'feature_248', 'feature_300',
+       'feature_337', 'feature_342', 'feature_349', 'feature_383',
+       'feature_406', 'feature_456', 'feature_461'],
+      dtype='object')","[[208  85]
+ [  7  14]]",0.7070063694267515,0.2333333333333333,0.1414141414141414,0.6666666666666666,0.6666666666666666,7,85,0.6882821387940842,10.119857943036147,0.1382375753236681,"[[500 188]
+ [202 704]]",0.7553324968632371,0.7830923248053392,0.7892376681614349,0.7770419426048565,0.7770419426048565,202,188,0.751893064325684
+3,4,3s & MICE & RFE__RF & ROSE & LR,25,3s,MICE,RFE__RF,ROSE,LR,"Index(['feature_1', 'feature_17', 'feature_20', 'feature_22', 'feature_34',
+       'feature_60', 'feature_104', 'feature_112', 'feature_116',
+       'feature_122', 'feature_130', 'feature_131', 'feature_153',
+       'feature_206', 'feature_248', 'feature_300', 'feature_320',
+       'feature_337', 'feature_349', 'feature_383', 'feature_424',
+       'feature_427', 'feature_461', 'feature_489', 'feature_511'],
+      dtype='object')","[[211  82]
+ [ 10  11]]",0.7070063694267515,0.1929824561403509,0.11827956989247312,0.5238095238095238,0.5238095238095238,10,82,0.6219730212904274,10.119850303570251,0.09413609281906565,"[[857 313]
+ [385 785]]",0.7017094017094017,0.6922398589065256,0.714936247723133,0.6709401709401709,0.6709401709401709,385,313,0.7017094017094018
+4,5,3s & MICE & BoS__shap & ADASYN & LR,10,3s,MICE,BoS__shap,ADASYN,LR,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_65', 'feature_349',
+       'feature_435', 'feature_34', 'feature_511', 'feature_442',
+       'feature_124'],
+      dtype='object')","[[224  69]
+ [  8  13]]",0.7547770700636943,0.2524271844660194,0.15853658536585366,0.6190476190476191,0.6190476190476191,8,69,0.691776369250772,8.469875651690467,0.16333310263686074,"[[920 250]
+ [472 724]]",0.694843617920541,0.6672811059907835,0.7433264887063655,0.6053511705685619,0.6053511705685619,472,250,0.6958379784466742
+5,6,3s & MICE & BoS__shap & SMOTE & LR,12,3s,MICE,BoS__shap,SMOTE,LR,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_65', 'feature_349',
+       'feature_435', 'feature_124', 'feature_34', 'feature_563',
+       'feature_118', 'feature_442', 'feature_148'],
+      dtype='object')","[[216  77]
+ [  9  12]]",0.7261146496815286,0.21818181818181817,0.1348314606741573,0.5714285714285714,0.5714285714285714,9,77,0.6543149683081424,9.459860952116063,0.12330368157911831,"[[878 292]
+ [459 711]]",0.6790598290598291,0.6543948458352508,0.7088733798604188,0.6076923076923076,0.6076923076923076,459,292,0.6790598290598291
+6,7,3s & MICE & BoS__shap & SMOTEENN & LR,14,3s,MICE,BoS__shap,SMOTEENN,LR,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_148',
+       'feature_349', 'feature_65', 'feature_435', 'feature_442', 'feature_34',
+       'feature_332', 'feature_118', 'feature_22', 'feature_3', 'feature_124'],
+      dtype='object')","[[210  83]
+ [  7  14]]",0.7133757961783439,0.23728813559322032,0.14432989690721648,0.6666666666666666,0.6666666666666666,7,83,0.6916951080773607,9.89986064372187,0.14306507368548727,"[[607 160]
+ [255 714]]",0.7609447004608295,0.7748236570808464,0.816933638443936,0.7368421052631579,0.7368421052631579,255,160,0.7641185754477459
+7,8,3s & MICE & BoS__shap & ROSE & LR,11,3s,MICE,BoS__shap,ROSE,LR,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
+       'feature_435', 'feature_442', 'feature_34', 'feature_332',
+       'feature_118', 'feature_22'],
+      dtype='object')","[[233  60]
+ [  9  12]]",0.7802547770700637,0.25806451612903225,0.16666666666666666,0.5714285714285714,0.5714285714285714,9,60,0.6833252072159922,7.589883907944742,0.17235846894338758,"[[936 234]
+ [455 715]]",0.7055555555555556,0.6748466257668713,0.7534246575342466,0.6111111111111112,0.6111111111111112,455,234,0.7055555555555556
