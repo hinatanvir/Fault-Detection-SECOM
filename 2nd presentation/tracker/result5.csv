@@ -1,43 +1,36 @@
 ,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,balancing_sampling_technique,Model,cols,cf_matrix,accuracy,f1,precision,recall,sensitivity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,sensitivity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
-0,1,3s & knn__uniform & BoS__shap & SMOTE & RF,19,3s,knn__uniform,BoS__shap,SMOTE,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
-       'feature_206', 'feature_342', 'feature_435', 'feature_66',
-       'feature_299', 'feature_124', 'feature_461', 'feature_283',
-       'feature_442', 'feature_164', 'feature_34', 'feature_332', 'feature_22',
-       'feature_185'],
-      dtype='object')","[[246  47]
- [ 10  11]]",0.8184713375796179,0.2784810126582279,0.1896551724137931,0.5238095238095238,0.5238095238095238,10,47,0.6816999837477653,6.2698975655704725,0.19991059454626736,"[[ 984  186]
- [ 118 1052]]",0.8700854700854701,0.8737541528239202,0.8497576736672051,0.8991452991452992,0.8991452991452992,118,186,0.87008547008547
-1,2,3s & knn__uniform & BoS__shap & ROSE & RF,15,3s,knn__uniform,BoS__shap,ROSE,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
-       'feature_206', 'feature_342', 'feature_435', 'feature_66',
-       'feature_299', 'feature_164', 'feature_34', 'feature_22', 'feature_442',
-       'feature_124'],
-      dtype='object')","[[252  41]
- [ 13   8]]",0.8280254777070064,0.22857142857142856,0.16326530612244897,0.38095238095238093,0.38095238095238093,13,41,0.6205103201690233,5.93989397713317,0.14888063447445032,"[[1067  103]
- [ 155 1015]]",0.8897435897435897,0.8872377622377622,0.907871198568873,0.8675213675213675,0.8675213675213675,155,103,0.8897435897435898
-2,3,3s & knn__uniform & BoS__shap & SMOTEENN & RF,19,3s,knn__uniform,BoS__shap,SMOTEENN,RF,"Index(['feature_148', 'feature_206', 'feature_342', 'feature_461',
-       'feature_133', 'feature_299', 'feature_34', 'feature_60', 'feature_349',
-       'feature_442', 'feature_22', 'feature_118', 'feature_478', 'feature_65',
-       'feature_435', 'feature_66', 'feature_124', 'feature_164',
-       'feature_332'],
-      dtype='object')","[[223  70]
- [  5  16]]",0.7611464968152867,0.29906542056074764,0.18604651162790697,0.7619047619047619,0.7619047619047619,5,70,0.7614984560377052,8.249885991842085,0.21463349563129464,"[[663 119]
- [ 39 992]]",0.9128516271373415,0.9262371615312791,0.8928892889288929,0.962172647914646,0.962172647914646,39,119,0.9049993674355838
-3,4,3s & knn__uniform & BoS__shap & ADASYN & RF,18,3s,knn__uniform,BoS__shap,ADASYN,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_148',
-       'feature_349', 'feature_65', 'feature_206', 'feature_435',
-       'feature_342', 'feature_66', 'feature_299', 'feature_164', 'feature_34',
-       'feature_22', 'feature_118', 'feature_154', 'feature_442',
-       'feature_511'],
-      dtype='object')","[[244  49]
- [ 10  11]]",0.8121019108280255,0.2716049382716049,0.18333333333333332,0.5238095238095238,0.5238095238095238,10,49,0.6782870144644888,6.489894864884745,0.19149864711530062,"[[ 956  214]
- [ 119 1036]]",0.8567741935483871,0.8615384615384616,0.8288,0.896969696969697,0.896969696969697,119,214,0.857031857031857
-4,5,3s & knn__uniform & RFE__RF & SMOTE & RF,31,3s,knn__uniform,RFE__RF,SMOTE,RF,"Index(['feature_1', 'feature_17', 'feature_20', 'feature_22', 'feature_34',
-       'feature_60', 'feature_65', 'feature_82', 'feature_91', 'feature_92',
-       'feature_104', 'feature_116', 'feature_118', 'feature_122',
-       'feature_125', 'feature_130', 'feature_131', 'feature_134',
-       'feature_206', 'feature_288', 'feature_300', 'feature_337',
-       'feature_342', 'feature_417', 'feature_421', 'feature_424',
-       'feature_427', 'feature_461', 'feature_478', 'feature_489',
-       'feature_520'],
-      dtype='object')","[[254  39]
- [ 13   8]]",0.8343949044585988,0.2352941176470588,0.1702127659574468,0.38095238095238093,0.38095238095238093,13,39,0.6239232894522997,5.7198966778188955,0.15739498400247698,"[[1048  122]
- [  26 1144]]",0.9367521367521368,0.9392446633825944,0.9036334913112164,0.9777777777777777,0.9777777777777777,26,122,0.9367521367521368
+0,1,NaN & knn__uniform & BoS__shap & SMOTE & RF,10,NaN,knn__uniform,BoS__shap,SMOTE,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_148',
+       'feature_349', 'feature_66', 'feature_442', 'feature_332',
+       'feature_563', 'feature_124'],
+      dtype='object')","[[247  46]
+ [ 11  10]]",0.8184713375796179,0.2597402597402597,0.17857142857142858,0.47619047619047616,0.47619047619047616,11,46,0.6595969445798798,6.269895019081841,0.17996884449738848,"[[1012  158]
+ [ 230  940]]",0.8341880341880342,0.8289241622574957,0.8561020036429873,0.8034188034188035,0.8034188034188035,230,158,0.8341880341880342
+1,2,NaN & knn__uniform & BoS__shap & ROSE & RF,11,NaN,knn__uniform,BoS__shap,ROSE,RF,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_125',
+       'feature_349', 'feature_66', 'feature_442', 'feature_332', 'feature_34',
+       'feature_563', 'feature_476'],
+      dtype='object')","[[242  51]
+ [ 10  11]]",0.8057324840764332,0.26506024096385544,0.1774193548387097,0.5238095238095238,0.5238095238095238,10,51,0.6748740451812124,6.709892164199018,0.1834768522465683,"[[981 189]
+ [265 905]]",0.805982905982906,0.799469964664311,0.8272394881170019,0.7735042735042735,0.7735042735042735,265,189,0.805982905982906
+2,3,NaN & knn__uniform & RFE__RF & SMOTE & RF,25,NaN,knn__uniform,RFE__RF,SMOTE,RF,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_29', 'feature_34',
+       'feature_60', 'feature_92', 'feature_104', 'feature_112', 'feature_116',
+       'feature_118', 'feature_122', 'feature_127', 'feature_130',
+       'feature_131', 'feature_153', 'feature_154', 'feature_228',
+       'feature_248', 'feature_317', 'feature_320', 'feature_337',
+       'feature_342', 'feature_489', 'feature_580'],
+      dtype='object')","[[257  36]
+ [ 13   8]]",0.8439490445859873,0.24615384615384614,0.18181818181818182,0.38095238095238093,0.38095238095238093,13,36,0.6290427433772143,5.389900728847486,0.17110225191250938,"[[1033  137]
+ [   7 1163]]",0.9384615384615385,0.9417004048582996,0.8946153846153846,0.994017094017094,0.994017094017094,7,137,0.9384615384615385
+3,4,NaN & knn__uniform & RFE__RF & ROSE & RF,26,NaN,knn__uniform,RFE__RF,ROSE,RF,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_29', 'feature_34',
+       'feature_60', 'feature_91', 'feature_92', 'feature_103', 'feature_104',
+       'feature_112', 'feature_118', 'feature_122', 'feature_130',
+       'feature_131', 'feature_154', 'feature_206', 'feature_248',
+       'feature_337', 'feature_417', 'feature_426', 'feature_456',
+       'feature_461', 'feature_511', 'feature_580', 'feature_588'],
+      dtype='object')","[[242  51]
+ [  8  13]]",0.8121019108280255,0.30588235294117644,0.203125,0.6190476190476191,0.6190476190476191,8,51,0.72249309280026,6.489899957862009,0.22814765436213646,"[[1026  144]
+ [ 187  983]]",0.8585470085470085,0.8558989986939486,0.8722271517302573,0.8401709401709402,0.8401709401709402,187,144,0.8585470085470086
+4,5,NaN & knn__distance & BoS__shap & SMOTE & RF,7,NaN,knn__distance,BoS__shap,SMOTE,RF,"Index(['feature_60', 'feature_478', 'feature_1', 'feature_125', 'feature_349',
+       'feature_442', 'feature_421'],
+      dtype='object')","[[230  63]
+ [ 13   8]]",0.7579617834394905,0.17391304347826086,0.11267605633802817,0.38095238095238093,0.38095238095238093,13,63,0.5829676580529823,8.359864269590174,0.07882343858565577,"[[ 960  210]
+ [ 162 1008]]",0.841025641025641,0.8442211055276383,0.8275862068965517,0.8615384615384616,0.8615384615384616,162,210,0.841025641025641
