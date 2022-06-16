@@ -1,0 +1,73 @@
+,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,balancing_sampling_technique,cols,cf_matrix,accuracy,f1,precision,recall,specificity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,specificity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
+0,1,3s & knn__uniform & BoP & ROSE & RF,13,3s,knn__uniform,BoP,ROSE,"Index(['feature_20', 'feature_22', 'feature_34', 'feature_60', 'feature_104',
+       'feature_122', 'feature_130', 'feature_131', 'feature_206',
+       'feature_248', 'feature_349', 'feature_427', 'feature_511'],
+      dtype='object')","[[237  56]
+ [ 11  10]]",0.7866242038216561,0.22988505747126436,0.15151515151515152,0.47619047619047616,0.47619047619047616,56,11,0.6425320981634975,7.369881515653207,0.14291534262201588,"[[999 171]
+ [182 988]]",0.8491452991452991,0.8484328037784457,0.8524590163934426,0.8444444444444444,0.8444444444444444,171,182,0.8491452991452992
+1,2,3s & knn__uniform & BoP & ROSE & RF,14,3s,knn__uniform,BoP,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_118', 'feature_122', 'feature_130',
+       'feature_131', 'feature_206', 'feature_248', 'feature_349',
+       'feature_511'],
+      dtype='object')","[[234  59]
+ [ 10  11]]",0.7802547770700637,0.24175824175824173,0.15714285714285714,0.5238095238095238,0.5238095238095238,59,10,0.6612221680481066,7.5898813614561105,0.15479441366934554,"[[985 185]
+ [189 981]]",0.8401709401709402,0.8398972602739726,0.8413379073756432,0.8384615384615385,0.8384615384615385,185,189,0.8401709401709402
+2,3,3s & knn__uniform & BoS__shap & ROSE & RF,14,3s,knn__uniform,BoS__shap,ROSE,"Index(['feature_148', 'feature_206', 'feature_461', 'feature_133',
+       'feature_299', 'feature_34', 'feature_60', 'feature_349', 'feature_442',
+       'feature_22', 'feature_118', 'feature_65', 'feature_124',
+       'feature_332'],
+      dtype='object')","[[243  50]
+ [ 10  11]]",0.8089171974522293,0.2682926829268293,0.18032786885245902,0.5238095238095238,0.5238095238095238,50,10,0.6765805298228506,6.599893514541882,0.18744069697231092,"[[992 178]
+ [179 991]]",0.8474358974358974,0.8473706712270201,0.8477331052181352,0.847008547008547,0.847008547008547,178,179,0.8474358974358974
+3,4,3s & knn__uniform & BoS__shap & ROSE & RF,12,3s,knn__uniform,BoS__shap,ROSE,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_148',
+       'feature_349', 'feature_65', 'feature_435', 'feature_34', 'feature_22',
+       'feature_118', 'feature_442', 'feature_511'],
+      dtype='object')","[[240  53]
+ [  7  14]]",0.8089171974522293,0.3181818181818181,0.208955223880597,0.6666666666666666,0.6666666666666666,53,7,0.7428896473265073,6.599901154007775,0.2408735595132565,"[[989 181]
+ [187 983]]",0.8427350427350427,0.8423307626392459,0.8445017182130584,0.8401709401709402,0.8401709401709402,181,187,0.8427350427350427
+4,5,3s & knn__uniform & RFE__RF & ROSE & RF,14,3s,knn__uniform,RFE__RF,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_65', 'feature_122', 'feature_130', 'feature_131',
+       'feature_288', 'feature_337', 'feature_342', 'feature_421',
+       'feature_424'],
+      dtype='object')","[[240  53]
+ [  9  12]]",0.802547770700637,0.27906976744186046,0.18461538461538463,0.5714285714285714,0.5714285714285714,53,9,0.6952705997074597,6.8198933603447855,0.19798961852187524,"[[1010  160]
+ [ 196  974]]",0.8478632478632478,0.845486111111111,0.8589065255731922,0.8324786324786325,0.8324786324786325,160,196,0.847863247863248
+5,6,3s & knn__uniform & RFE__RF & ROSE & RF,14,3s,knn__uniform,RFE__RF,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_122', 'feature_130', 'feature_131',
+       'feature_288', 'feature_337', 'feature_342', 'feature_427',
+       'feature_489'],
+      dtype='object')","[[242  51]
+ [  9  12]]",0.8089171974522293,0.2857142857142857,0.19047619047619047,0.5714285714285714,0.5714285714285714,51,9,0.6986835689907362,6.599896061030513,0.20606826801517064,"[[1014  156]
+ [ 223  947]]",0.838034188034188,0.833260008798944,0.8585675430643699,0.8094017094017094,0.8094017094017094,156,223,0.838034188034188
+6,7,3s & knn__uniform & nothing & ROSE & RF,225,3s,knn__uniform,nothing,ROSE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_572', 'feature_573', 'feature_574', 'feature_579',
+       'feature_580', 'feature_582', 'feature_583', 'feature_584',
+       'feature_587', 'feature_590'],
+      dtype='object', length=225)","[[293   0]
+ [ 21   0]]",0.9331210191082803,0.0,0.0,0.0,0.0,0,21,0.5,2.3099181665386137,0.0,"[[1170    0]
+ [  92 1078]]",0.9606837606837607,0.9590747330960855,1.0,0.9213675213675213,0.9213675213675213,0,92,0.9606837606837606
+7,8,3s & knn__uniform & nothing & ROSE & RF,225,3s,knn__uniform,nothing,ROSE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_572', 'feature_573', 'feature_574', 'feature_579',
+       'feature_580', 'feature_582', 'feature_583', 'feature_584',
+       'feature_587', 'feature_590'],
+      dtype='object', length=225)","[[293   0]
+ [ 21   0]]",0.9331210191082803,0.0,0.0,0.0,0.0,0,21,0.5,2.3099181665386137,0.0,"[[1170    0]
+ [  93 1077]]",0.9602564102564103,0.958611481975968,1.0,0.9205128205128205,0.9205128205128205,0,93,0.9602564102564102
+8,9,3s & MICE & BoP & ROSE & RF,14,3s,MICE,BoP,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_113', 'feature_122', 'feature_130',
+       'feature_131', 'feature_206', 'feature_248', 'feature_349',
+       'feature_383'],
+      dtype='object')","[[240  53]
+ [  8  13]]",0.8057324840764332,0.29885057471264365,0.19696969696969696,0.6190476190476191,0.6190476190476191,53,8,0.7190801235169836,6.709897257176282,0.21966919253646222,"[[ 971  199]
+ [ 165 1005]]",0.8444444444444444,0.8466722830665544,0.834717607973422,0.8589743589743589,0.8589743589743589,199,165,0.8444444444444444
+9,10,3s & MICE & BoP & ROSE & RF,14,3s,MICE,BoP,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_113', 'feature_122', 'feature_130',
+       'feature_131', 'feature_206', 'feature_248', 'feature_349',
+       'feature_383'],
+      dtype='object')","[[240  53]
+ [  9  12]]",0.802547770700637,0.27906976744186046,0.18461538461538463,0.5714285714285714,0.5714285714285714,53,9,0.6952705997074597,6.8198933603447855,0.19798961852187524,"[[ 971  199]
+ [ 165 1005]]",0.8444444444444444,0.8466722830665544,0.834717607973422,0.8589743589743589,0.8589743589743589,199,165,0.8444444444444444
