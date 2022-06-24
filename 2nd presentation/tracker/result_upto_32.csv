@@ -1,0 +1,226 @@
+,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,balancing_sampling_technique,cols,cf_matrix,accuracy,f1,precision,recall,sensitivity,type_2_error_FP,type_1_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,sensitivity_train,type_2_error_FP_train,type_1_error_FN_train,auc_train
+0,1,3s & knn__uniform & BoS__shap & ROSE & RF,14,3s,knn__uniform,BoS__shap,ROSE,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
+       'feature_435', 'feature_124', 'feature_461', 'feature_283',
+       'feature_442', 'feature_34', 'feature_332', 'feature_22',
+       'feature_185'],
+      dtype='object')","[[265  28]
+ [ 15   6]]",0.863057325,0.218181818,0.176470588,0.285714286,0.285714286,28,15,0.595075573,4.729903738,0.147708623,"[[1112   58]
+ [ 121 1049]]",0.923504274,0.921387791,0.947606143,0.896581197,0.896581197,58,121,0.923504274
+1,2,3s & knn__uniform & BoS__shap & SMOTE & RF,10,3s,knn__uniform,BoS__shap,SMOTE,"Index(['feature_60', 'feature_478', 'feature_133', 'feature_349', 'feature_65',
+       'feature_435', 'feature_34', 'feature_22', 'feature_442',
+       'feature_124'],
+      dtype='object')","[[247  46]
+ [  9  12]]",0.824840764,0.303797468,0.206896552,0.571428571,0.571428571,46,9,0.707215992,6.049902813,0.227983907,"[[ 978  192]
+ [ 144 1026]]",0.856410256,0.859296482,0.842364532,0.876923077,0.876923077,192,144,0.856410256
+2,3,3s & knn__uniform & BoP & ROSE & RF,12,3s,knn__uniform,BoP,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_122', 'feature_130', 'feature_131', 'feature_206',
+       'feature_349', 'feature_511', 'feature_520'],
+      dtype='object')","[[236  57]
+ [  8  13]]",0.792993631,0.285714286,0.185714286,0.619047619,0.619047619,57,8,0.712254185,7.149891856,0.203791839,"[[984 186]
+ [204 966]]",0.833333333,0.832041344,0.838541667,0.825641026,0.825641026,186,204,0.833333333
+3,4,3s & knn__uniform & BoP & SMOTE & RF,13,3s,knn__uniform,BoP,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_118', 'feature_122', 'feature_130',
+       'feature_131', 'feature_206', 'feature_349', 'feature_511'],
+      dtype='object')","[[236  57]
+ [ 10  11]]",0.786624204,0.247191011,0.161764706,0.523809524,0.523809524,57,10,0.664635137,7.369884062,0.161498605,"[[ 974  196]
+ [  42 1128]]",0.898290598,0.90457097,0.851963746,0.964102564,0.964102564,196,42,0.898290598
+4,5,3s & knn__uniform & RFE__RF & ROSE & RF,14,3s,knn__uniform,RFE__RF,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_65', 'feature_122', 'feature_130', 'feature_131',
+       'feature_288', 'feature_337', 'feature_342', 'feature_421',
+       'feature_424'],
+      dtype='object')","[[240  53]
+ [  9  12]]",0.802547771,0.279069767,0.184615385,0.571428571,0.571428571,53,9,0.6952706,6.81989336,0.197989619,"[[1010  160]
+ [ 196  974]]",0.847863248,0.845486111,0.858906526,0.832478632,0.832478632,160,196,0.847863248
+5,6,3s & knn__uniform & RFE__RF & SMOTE & RF,14,3s,knn__uniform,RFE__RF,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_122', 'feature_130', 'feature_131',
+       'feature_288', 'feature_337', 'feature_342', 'feature_427',
+       'feature_489'],
+      dtype='object')","[[252  41]
+ [ 14   7]]",0.824840764,0.202898551,0.145833333,0.333333333,0.333333333,41,14,0.596700796,6.04989008,0.121119593,"[[1016  154]
+ [  54 1116]]",0.911111111,0.914754098,0.878740157,0.953846154,0.953846154,154,54,0.911111111
+6,7,3s & knn__uniform & nothing & ROSE & RF,225,3s,knn__uniform,nothing,ROSE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_572', 'feature_573', 'feature_574', 'feature_579',
+       'feature_580', 'feature_582', 'feature_583', 'feature_584',
+       'feature_587', 'feature_590'],
+      dtype='object', length=225)","[[293   0]
+ [ 21   0]]",0.933121019,0,0,0,0,0,21,0.5,2.309918167,0,"[[1170    0]
+ [  92 1078]]",0.960683761,0.959074733,1,0.921367521,0.921367521,0,92,0.960683761
+7,8,3s & knn__uniform & nothing & SMOTE & RF,225,3s,knn__uniform,nothing,SMOTE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_572', 'feature_573', 'feature_574', 'feature_579',
+       'feature_580', 'feature_582', 'feature_583', 'feature_584',
+       'feature_587', 'feature_590'],
+      dtype='object', length=225)","[[273  20]
+ [ 15   6]]",0.888535032,0.255319149,0.230769231,0.285714286,0.285714286,20,15,0.60872745,3.849914541,0.19581443,"[[1120   50]
+ [   6 1164]]",0.976068376,0.976510067,0.958813839,0.994871795,0.994871795,50,6,0.976068376
+8,9,3s & MICE & BoS__shap & ROSE & RF,10,3s,MICE,BoS__shap,ROSE,"Index(['feature_60', 'feature_478', 'feature_65', 'feature_349', 'feature_299',
+       'feature_442', 'feature_34', 'feature_332', 'feature_22',
+       'feature_118'],
+      dtype='object')","[[244  49]
+ [ 10  11]]",0.812101911,0.271604938,0.183333333,0.523809524,0.523809524,49,10,0.678287014,6.489894865,0.191498647,"[[998 172]
+ [201 969]]",0.840598291,0.83859801,0.849255039,0.828205128,0.828205128,172,201,0.840598291
+9,10,3s & MICE & BoS__shap & SMOTE & RF,11,3s,MICE,BoS__shap,SMOTE,"Index(['feature_60', 'feature_478', 'feature_65', 'feature_349', 'feature_299',
+       'feature_34', 'feature_22', 'feature_118', 'feature_283', 'feature_442',
+       'feature_332'],
+      dtype='object')","[[253  40]
+ [  8  13]]",0.847133758,0.351351351,0.245283019,0.619047619,0.619047619,40,8,0.741264424,5.279914812,0.28262732,"[[ 983  187]
+ [ 139 1031]]",0.860683761,0.863484087,0.846469622,0.881196581,0.881196581,187,139,0.860683761
+10,11,3s & MICE & BoP & ROSE & RF,14,3s,MICE,BoP,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_113', 'feature_122', 'feature_130',
+       'feature_131', 'feature_206', 'feature_248', 'feature_349',
+       'feature_383'],
+      dtype='object')","[[241  52]
+ [  9  12]]",0.805732484,0.282352941,0.1875,0.571428571,0.571428571,52,9,0.696977084,6.709894711,0.201983168,"[[ 971  199]
+ [ 165 1005]]",0.844444444,0.846672283,0.834717608,0.858974359,0.858974359,199,165,0.844444444
+11,12,3s & MICE & BoP & SMOTE & RF,13,3s,MICE,BoP,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_122', 'feature_130', 'feature_131',
+       'feature_206', 'feature_248', 'feature_349', 'feature_383'],
+      dtype='object')","[[244  49]
+ [ 10  11]]",0.812101911,0.271604938,0.183333333,0.523809524,0.523809524,49,10,0.678287014,6.489894865,0.191498647,"[[ 984  186]
+ [  33 1137]]",0.906410256,0.912154031,0.859410431,0.971794872,0.971794872,186,33,0.906410256
+12,13,3s & MICE & RFE__RF & ROSE & RF,15,3s,MICE,RFE__RF,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_91', 'feature_112', 'feature_122', 'feature_130',
+       'feature_131', 'feature_154', 'feature_342', 'feature_383',
+       'feature_461', 'feature_520'],
+      dtype='object')","[[236  57]
+ [ 10  11]]",0.786624204,0.247191011,0.161764706,0.523809524,0.523809524,57,10,0.664635137,7.369884062,0.161498605,"[[ 993  177]
+ [ 163 1007]]",0.854700855,0.855564996,0.850506757,0.860683761,0.860683761,177,163,0.854700855
+13,14,3s & MICE & RFE__RF & SMOTE & RF,13,3s,MICE,RFE__RF,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_112', 'feature_122', 'feature_130', 'feature_131',
+       'feature_206', 'feature_248', 'feature_383', 'feature_427'],
+      dtype='object')","[[244  49]
+ [ 10  11]]",0.812101911,0.271604938,0.183333333,0.523809524,0.523809524,49,10,0.678287014,6.489894865,0.191498647,"[[ 987  183]
+ [  28 1142]]",0.90982906,0.915430862,0.861886792,0.976068376,0.976068376,183,28,0.90982906
+14,15,3s & MICE & nothing & ROSE & RF,223,3s,MICE,nothing,ROSE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_571', 'feature_572', 'feature_573', 'feature_574',
+       'feature_579', 'feature_580', 'feature_581', 'feature_582',
+       'feature_583', 'feature_584'],
+      dtype='object', length=223)","[[293   0]
+ [ 21   0]]",0.933121019,0,0,0,0,0,21,0.5,2.309918167,0,"[[1170    0]
+ [  89 1081]]",0.961965812,0.960462017,1,0.923931624,0.923931624,0,89,0.961965812
+15,16,3s & MICE & nothing & SMOTE & RF,223,3s,MICE,nothing,SMOTE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_571', 'feature_572', 'feature_573', 'feature_574',
+       'feature_579', 'feature_580', 'feature_581', 'feature_582',
+       'feature_583', 'feature_584'],
+      dtype='object', length=223)","[[280  13]
+ [ 14   7]]",0.914012739,0.341463415,0.35,0.333333333,0.333333333,13,14,0.644482366,2.96992789,0.295496094,"[[1123   47]
+ [   5 1165]]",0.977777778,0.978169605,0.961221122,0.995726496,0.995726496,47,5,0.977777778
+16,17,nothing & knn__uniform & BoS__shap & ROSE & RF,12,nothing,knn__uniform,BoS__shap,ROSE,"Index(['feature_60', 'feature_478', 'feature_421', 'feature_349', 'feature_65',
+       'feature_435', 'feature_124', 'feature_442', 'feature_332',
+       'feature_34', 'feature_22', 'feature_563'],
+      dtype='object')","[[240  53]
+ [  9  12]]",0.802547771,0.279069767,0.184615385,0.571428571,0.571428571,53,9,0.6952706,6.81989336,0.197989619,"[[983 187]
+ [209 961]]",0.830769231,0.829163072,0.837108014,0.821367521,0.821367521,187,209,0.830769231
+17,18,nothing & knn__uniform & BoS__shap & SMOTE & RF,12,nothing,knn__uniform,BoS__shap,SMOTE,"Index(['feature_60', 'feature_478', 'feature_421', 'feature_349', 'feature_65',
+       'feature_435', 'feature_124', 'feature_442', 'feature_332',
+       'feature_34', 'feature_22', 'feature_563'],
+      dtype='object')","[[248  45]
+ [ 10  11]]",0.824840764,0.285714286,0.196428571,0.523809524,0.523809524,45,10,0.685112953,6.049900266,0.208741867,"[[1000  170]
+ [ 142 1028]]",0.866666667,0.868243243,0.858096828,0.878632479,0.878632479,170,142,0.866666667
+18,19,nothing & knn__uniform & BoP & ROSE & RF,11,nothing,knn__uniform,BoP,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_122', 'feature_131', 'feature_206', 'feature_349',
+       'feature_511', 'feature_520'],
+      dtype='object')","[[235  58]
+ [  8  13]]",0.789808917,0.282608696,0.183098592,0.619047619,0.619047619,58,8,0.7105477,7.259890505,0.200030881,"[[988 182]
+ [221 949]]",0.827777778,0.824858757,0.83908046,0.811111111,0.811111111,182,221,0.827777778
+19,20,nothing & knn__uniform & BoP & SMOTE & RF,11,nothing,knn__uniform,BoP,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_122', 'feature_131', 'feature_206', 'feature_349',
+       'feature_511', 'feature_520'],
+      dtype='object')","[[238  55]
+ [ 12   9]]",0.786624204,0.211764706,0.140625,0.428571429,0.428571429,55,12,0.620429059,7.369878969,0.123489709,"[[ 972  198]
+ [  40 1130]]",0.898290598,0.904723779,0.850903614,0.965811966,0.965811966,198,40,0.898290598
+20,21,nothing & knn__uniform & RFE__RF & ROSE & RF,14,nothing,knn__uniform,RFE__RF,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_116', 'feature_122', 'feature_130', 'feature_131',
+       'feature_206', 'feature_320', 'feature_337', 'feature_461',
+       'feature_511'],
+      dtype='object')","[[233  60]
+ [  8  13]]",0.78343949,0.276595745,0.178082192,0.619047619,0.619047619,60,8,0.707134731,7.479887805,0.192741021,"[[994 176]
+ [204 966]]",0.837606838,0.835640138,0.845884413,0.825641026,0.825641026,176,204,0.837606838
+21,22,nothing & knn__uniform & RFE__RF & SMOTE & RF,14,nothing,knn__uniform,RFE__RF,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_116', 'feature_122', 'feature_130', 'feature_131',
+       'feature_206', 'feature_320', 'feature_337', 'feature_461',
+       'feature_511'],
+      dtype='object')","[[248  45]
+ [ 13   8]]",0.815286624,0.216216216,0.150943396,0.380952381,0.380952381,45,13,0.613684382,6.379888576,0.133174679,"[[1008  162]
+ [  37 1133]]",0.914957265,0.919269777,0.874903475,0.968376068,0.968376068,162,37,0.914957265
+22,23,nothing & knn__uniform & nothing & ROSE & RF,226,nothing,knn__uniform,nothing,ROSE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_573', 'feature_574', 'feature_579', 'feature_580',
+       'feature_582', 'feature_583', 'feature_584', 'feature_587',
+       'feature_588', 'feature_590'],
+      dtype='object', length=226)","[[293   0]
+ [ 21   0]]",0.933121019,0,0,0,0,0,21,0.5,2.309918167,0,"[[1170    0]
+ [  87 1083]]",0.962820513,0.96138482,1,0.925641026,0.925641026,0,87,0.962820513
+23,24,nothing & knn__uniform & nothing & SMOTE & RF,226,nothing,knn__uniform,nothing,SMOTE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_573', 'feature_574', 'feature_579', 'feature_580',
+       'feature_582', 'feature_583', 'feature_584', 'feature_587',
+       'feature_588', 'feature_590'],
+      dtype='object', length=226)","[[275  18]
+ [ 14   7]]",0.898089172,0.304347826,0.28,0.333333333,0.333333333,18,14,0.635949943,3.519921138,0.249813349,"[[1120   50]
+ [   6 1164]]",0.976068376,0.976510067,0.958813839,0.994871795,0.994871795,50,6,0.976068376
+24,25,nothing & MICE & BoS__shap & ROSE & RF,11,nothing,MICE,BoS__shap,ROSE,"Index(['feature_60', 'feature_478', 'feature_421', 'feature_125',
+       'feature_349', 'feature_65', 'feature_299', 'feature_442',
+       'feature_332', 'feature_22', 'feature_563'],
+      dtype='object')","[[245  48]
+ [  9  12]]",0.818471338,0.296296296,0.2,0.571428571,0.571428571,48,9,0.703803023,6.269900112,0.218905473,"[[1012  158]
+ [ 187  983]]",0.852564103,0.850713977,0.861524978,0.84017094,0.84017094,158,187,0.852564103
+25,26,nothing & MICE & BoS__shap & SMOTE & RF,11,nothing,MICE,BoS__shap,SMOTE,"Index(['feature_60', 'feature_478', 'feature_421', 'feature_125',
+       'feature_349', 'feature_65', 'feature_299', 'feature_442',
+       'feature_332', 'feature_22', 'feature_563'],
+      dtype='object')","[[247  46]
+ [ 10  11]]",0.821656051,0.282051282,0.192982456,0.523809524,0.523809524,46,10,0.683406468,6.159898916,0.20427188,"[[1027  143]
+ [ 154 1016]]",0.873076923,0.872477458,0.876617774,0.868376068,0.868376068,143,154,0.873076923
+26,27,nothing & MICE & BoP & ROSE & RF,14,nothing,MICE,BoP,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_118', 'feature_122', 'feature_130',
+       'feature_131', 'feature_206', 'feature_248', 'feature_349',
+       'feature_383'],
+      dtype='object')","[[237  56]
+ [  9  12]]",0.792993631,0.269662921,0.176470588,0.571428571,0.571428571,56,9,0.690151146,7.149889309,0.186528497,"[[ 975  195]
+ [ 168 1002]]",0.844871795,0.846641318,0.837092732,0.856410256,0.856410256,195,168,0.844871795
+27,28,nothing & MICE & BoP & SMOTE & RF,14,nothing,MICE,BoP,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_104', 'feature_118', 'feature_122', 'feature_130',
+       'feature_131', 'feature_206', 'feature_248', 'feature_349',
+       'feature_383'],
+      dtype='object')","[[240  53]
+ [  9  12]]",0.802547771,0.279069767,0.184615385,0.571428571,0.571428571,53,9,0.6952706,6.81989336,0.197989619,"[[ 981  189]
+ [  30 1140]]",0.906410256,0.912364946,0.85778781,0.974358974,0.974358974,189,30,0.906410256
+28,29,nothing & MICE & RFE__RF & ROSE & RF,12,nothing,MICE,RFE__RF,ROSE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_103', 'feature_122', 'feature_131', 'feature_206',
+       'feature_248', 'feature_383', 'feature_427'],
+      dtype='object')","[[233  60]
+ [ 11  10]]",0.77388535,0.21978022,0.142857143,0.476190476,0.476190476,60,11,0.63570616,7.809876114,0.130295701,"[[982 188]
+ [195 975]]",0.836324786,0.835833691,0.838349097,0.833333333,0.833333333,188,195,0.836324786
+29,30,nothing & MICE & RFE__RF & SMOTE & RF,12,nothing,MICE,RFE__RF,SMOTE,"Index(['feature_1', 'feature_20', 'feature_22', 'feature_34', 'feature_60',
+       'feature_103', 'feature_122', 'feature_131', 'feature_206',
+       'feature_248', 'feature_383', 'feature_427'],
+      dtype='object')","[[244  49]
+ [ 11  10]]",0.808917197,0.25,0.169491525,0.476190476,0.476190476,49,11,0.654477491,6.599890968,0.167918028,"[[ 982  188]
+ [  32 1138]]",0.905982906,0.911858974,0.858220211,0.972649573,0.972649573,188,32,0.905982906
+30,31,nothing & MICE & nothing & ROSE & RF,223,nothing,MICE,nothing,ROSE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_571', 'feature_572', 'feature_573', 'feature_574',
+       'feature_579', 'feature_580', 'feature_581', 'feature_582',
+       'feature_583', 'feature_584'],
+      dtype='object', length=223)","[[293   0]
+ [ 21   0]]",0.933121019,0,0,0,0,0,21,0.5,2.309918167,0,"[[1170    0]
+ [  89 1081]]",0.961965812,0.960462017,1,0.923931624,0.923931624,0,89,0.961965812
+31,32,nothing & MICE & nothing & SMOTE & RF,223,nothing,MICE,nothing,SMOTE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
+       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
+       ...
+       'feature_571', 'feature_572', 'feature_573', 'feature_574',
+       'feature_579', 'feature_580', 'feature_581', 'feature_582',
+       'feature_583', 'feature_584'],
+      dtype='object', length=223)","[[280  13]
+ [ 14   7]]",0.914012739,0.341463415,0.35,0.333333333,0.333333333,13,14,0.644482366,2.96992789,0.295496094,"[[1123   47]
+ [   5 1165]]",0.977777778,0.978169605,0.961221122,0.995726496,0.995726496,47,5,0.977777778

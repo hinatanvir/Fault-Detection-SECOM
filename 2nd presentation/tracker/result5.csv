@@ -1,0 +1,26 @@
+,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,removing_coli,balancing_sampling_technique,Model,cols,cf_matrix,accuracy,f1,precision,recall,sensitivity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,sensitivity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
+0,1,3s & knn__uniform & BoS__gini & Yes & SMOTEENN & RF,9,3s,knn__uniform,BoS__gini,Yes,SMOTEENN,RF,"Index(['feature_66', 'feature_349', 'feature_427', 'feature_442',
+       'feature_133', 'feature_461', 'feature_3', 'feature_299', 'feature_60'],
+      dtype='object')","[[245  48]
+ [  8  13]]",0.821656050955414,0.3170731707317073,0.21311475409836064,0.6190476190476191,0.6190476190476191,8,48,0.7276125467251747,6.1599040088905985,0.24161131717415685,"[[707  56]
+ [126 825]]",0.8938156359393232,0.9006550218340611,0.9364358683314415,0.8675078864353313,0.8675078864353313,126,56,0.8970566955112436
+1,2,3s & knn__uniform & BoS__gini & Yes & SMOTEENN & LR,8,3s,knn__uniform,BoS__gini,Yes,SMOTEENN,LR,"Index(['feature_66', 'feature_427', 'feature_300', 'feature_332',
+       'feature_442', 'feature_133', 'feature_3', 'feature_60'],
+      dtype='object')","[[256  37]
+ [ 10  11]]",0.8503184713375797,0.31884057971014496,0.22916666666666666,0.5238095238095238,0.5238095238095238,10,37,0.6987648301641476,5.169911068999107,0.24895674300254456,"[[625  70]
+ [362 501]]",0.7227214377406932,0.698744769874477,0.8774080560420315,0.5805330243337196,0.5805330243337196,362,70,0.7399067999366439
+2,3,3s & knn__uniform & BoS__gini & Yes & ADASYN & RF,8,3s,knn__uniform,BoS__gini,Yes,ADASYN,RF,"Index(['feature_66', 'feature_171', 'feature_427', 'feature_133',
+       'feature_299', 'feature_563', 'feature_354', 'feature_3'],
+      dtype='object')","[[223  70]
+ [ 13   8]]",0.7356687898089171,0.1616161616161616,0.10256410256410256,0.38095238095238093,0.38095238095238093,13,70,0.5710222655615147,9.129854817190129,0.06285508809780649,"[[ 925  245]
+ [ 108 1044]]",0.8479758828596038,0.8553871364195001,0.8099301784328937,0.90625,0.90625,108,245,0.8484241452991453
+3,4,3s & knn__uniform & BoS__gini & Yes & ADASYN & LR,8,3s,knn__uniform,BoS__gini,Yes,ADASYN,LR,"Index(['feature_66', 'feature_427', 'feature_442', 'feature_133', 'feature_3',
+       'feature_299', 'feature_563', 'feature_354'],
+      dtype='object')","[[198  95]
+ [ 11  10]]",0.6624203821656051,0.15873015873015872,0.09523809523809523,0.47619047619047616,0.47619047619047616,11,95,0.5759791971396068,11.659828852281532,0.053194515560107014,"[[766 404]
+ [552 600]]",0.5882859603789836,0.5565862708719852,0.5976095617529881,0.5208333333333334,0.5208333333333334,552,404,0.587767094017094
+4,5,3s & knn__uniform & BoS__gini & Yes & SMOTE & RF,8,3s,knn__uniform,BoS__gini,Yes,SMOTE,RF,"Index(['feature_66', 'feature_171', 'feature_427', 'feature_133',
+       'feature_461', 'feature_299', 'feature_354', 'feature_3'],
+      dtype='object')","[[213  80]
+ [ 12   9]]",0.7070063694267515,0.16363636363636364,0.10112359550561797,0.42857142857142855,0.42857142857142855,12,80,0.5777669429546561,10.119845210592988,0.06213882215440558,"[[ 864  306]
+ [ 147 1023]]",0.8064102564102564,0.8187274909963985,0.7697516930022573,0.8743589743589744,0.8743589743589744,147,306,0.8064102564102564

@@ -1,10 +1,25 @@
-,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,balancing_sampling_technique,cols,cf_matrix,accuracy,f1,precision,recall,specificity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,specificity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
-0,1,3s & knn__uniform & nothing & ROSE & NN,224,3s,knn__uniform,nothing,ROSE,"Index(['feature_1', 'feature_2', 'feature_3', 'feature_4', 'feature_5',
-       'feature_7', 'feature_8', 'feature_9', 'feature_10', 'feature_11',
-       ...
-       'feature_571', 'feature_572', 'feature_573', 'feature_579',
-       'feature_580', 'feature_582', 'feature_583', 'feature_584',
-       'feature_587', 'feature_590'],
-      dtype='object', length=224)","[[287   6]
- [ 20   1]]",0.9171974522292994,0.07142857142857142,0.14285714285714285,0.047619047619047616,0.047619047619047616,6,20,0.5135706159596944,2.859913961312927,0.03930336549776403,"[[1159   11]
- [ 461  709]]",0.7982905982905983,0.7502645502645503,0.9847222222222223,0.6059829059829059,0.6059829059829059,11,461,0.7982905982905983
+,No.,combination,n_cols,outlier_replace_with,imputation_knn_weight,FS_classifier_model,removing_coli,balancing_sampling_technique,Model,cols,cf_matrix,accuracy,f1,precision,recall,sensitivity,type_1_error_FP,type_2_error_FN,auc,log_loss_,cohen_kappa_score_,cf_matrix_train,accuracy_train,f1_train,precision_train,recall_train,sensitivity_train,type_1_error_FP_train,type_2_error_FN_train,auc_train
+0,1,NaN & MICE & BoS__shap & Yes & SMOTEENN & RF,11,NaN,MICE,BoS__shap,Yes,SMOTEENN,RF,"Index(['feature_66', 'feature_349', 'feature_248', 'feature_442',
+       'feature_478', 'feature_133', 'feature_383', 'feature_563',
+       'feature_60', 'feature_164', 'feature_124'],
+      dtype='object')","[[209  84]
+ [  9  12]]",0.7038216560509554,0.20512820512820512,0.125,0.5714285714285714,0.5714285714285714,9,84,0.6423695758166748,10.22985149971602,0.1071363052650891,"[[583 152]
+ [ 35 942]]",0.8907710280373832,0.9097054563013037,0.8610603290676416,0.9641760491299898,0.9641760491299898,35,152,0.8786866640207772
+1,2,NaN & MICE & BoS__shap & Yes & ADASYN & RF,11,NaN,MICE,BoS__shap,Yes,ADASYN,RF,"Index(['feature_66', 'feature_349', 'feature_332', 'feature_478',
+       'feature_489', 'feature_34', 'feature_563', 'feature_125', 'feature_60',
+       'feature_164', 'feature_442'],
+      dtype='object')","[[235  58]
+ [ 12   9]]",0.7770700636942676,0.20454545454545453,0.13432835820895522,0.42857142857142855,0.42857142857142855,12,58,0.6153096050706972,7.6998749181359845,0.11435248609879922,"[[ 939  231]
+ [  69 1133]]",0.8735244519392917,0.8830865159781762,0.8306451612903226,0.9425956738768719,0.9425956738768719,69,231,0.8725798882204873
+2,3,NaN & MICE & BoS__shap & Yes & SMOTE & RF,11,NaN,MICE,BoS__shap,Yes,SMOTE,RF,"Index(['feature_66', 'feature_349', 'feature_442', 'feature_478',
+       'feature_125', 'feature_34', 'feature_519', 'feature_246', 'feature_60',
+       'feature_164', 'feature_574'],
+      dtype='object')","[[244  49]
+ [ 13   8]]",0.802547770700637,0.20512820512820512,0.14035087719298245,0.38095238095238093,0.38095238095238093,13,49,0.6068584430359174,6.819883174390261,0.1190152955018553,"[[1019  151]
+ [ 218  952]]",0.8423076923076923,0.8376594808622965,0.8631006346328196,0.8136752136752137,0.8136752136752137,218,151,0.8423076923076924
+3,4,NaN & MICE & BoS__shap & Yes & ROSE & RF,9,NaN,MICE,BoS__shap,Yes,ROSE,RF,"Index(['feature_66', 'feature_349', 'feature_421', 'feature_478',
+       'feature_125', 'feature_563', 'feature_519', 'feature_60',
+       'feature_476'],
+      dtype='object')","[[245  48]
+ [ 12   9]]",0.8089171974522293,0.23076923076923078,0.15789473684210525,0.42857142857142855,0.42857142857142855,12,48,0.6323744514870795,6.59988842156462,0.14743415693727935,"[[1012  158]
+ [ 188  982]]",0.8521367521367521,0.8502164502164503,0.8614035087719298,0.8393162393162393,0.8393162393162393,188,158,0.8521367521367522
